@@ -1,0 +1,12 @@
+# Keep local credentials and Terraform working files out of source control.
+*.pem
+*.key
+id_rsa
+id_ed25519
+.env
+.env.*
+!.env.example
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfplan
